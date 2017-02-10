@@ -1,0 +1,23 @@
+{
+  "name": "es6_nodejs_server",
+  "version": "1.0.0",
+  "description": "ES6 Node.JS Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vophihungvn/es6_nodejs_server.git"
+  },
+  "keywords": [
+    "ES6",
+    "Node.JS"
+  ],
+  "author": "Phi-Hung Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vophihungvn/es6_nodejs_server/issues"
+  },
+  "homepage": "https://github.com/vophihungvn/es6_nodejs_server#readme"
+}
