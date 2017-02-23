@@ -10,7 +10,9 @@ In charge of managing input/output from routes. It pass parameter to service to 
 
 #### Services
 Logical function will process here. Service receives data from controller and 'digest' them, then it return a `Promise` to `resolve` data or `reject` error to controllers. 
+
 Each services extend from **Base Service** `services/base.service.js`. Some reuseable function will be written on **Base Service**
+
 A service can be import by another one
 
 #### Repositories
@@ -27,7 +29,7 @@ Some middleware module will be written here. We can import and be used in **Rout
 
 #### Libs
 This folder contains some shared module that we can use it in any **controllers**, **servies**, **repositories**, **models**
- 
+
 ### Installation
 ```bash
 npm install
