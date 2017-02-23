@@ -29,6 +29,11 @@ Install `mocha` package globaly
 npm i -g mocha
 ```
 
+and run test
+```
+npm test
+```
+
 Please feel free to create `Issue` or `Pull Request` to contribute for this project. 
 
 Contributor:
