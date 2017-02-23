@@ -16,10 +16,16 @@ Change setting to your own config with suitable enviroment (`development`, `beta
 2. Create migration
 ------------------------------------------------------------------------------
 - Make sure you have installed `sequelize-cli`
-```npm i -g sequelize```
-or ```npm i sequelize``` for local install
+```
+npm i -g sequelize
+```
+or 
+```
+npm i sequelize
+``` 
+for local install
 - Run ```sequelize migration:create [migration name]```, it will automatically create a migration file in `migrations` folder.
-- Go to the file and do whatever you want
+- Go to the file and do whatever you want with [document](http://docs.sequelizejs.com/en/latest/docs/migrations/)
 
 <a name="run_migration"/>
 3. Run migration
