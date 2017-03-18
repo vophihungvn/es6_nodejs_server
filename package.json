@@ -4,7 +4,7 @@
   "description": "ES6 Node.JS Server",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony  ./src/index.js",
+    "start": "node --harmony  ./app.js",
     "test": "NODE_ENV=test mocha --harmony --compilers js:babel-core/register ./test/**/*.spec.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "import-export": "^1.0.1",
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
+    "mongoose": "^4.9.0",
     "morgan": "^1.8.0",
     "pg": "^6.1.2",
     "sequelize": "^3.30.2",
